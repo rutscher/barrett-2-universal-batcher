@@ -1,0 +1,14 @@
+# Requirements for Barrett Batch API Parallel Version
+# Core dependencies (same as original)
+pandas>=1.5.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+openpyxl>=3.0.10
+lxml>=4.9.0
+
+# Additional dependencies for parallel processing
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2
+
+# Optional: For better performance
+uvloop>=0.17.0; sys_platform != "win32" 
